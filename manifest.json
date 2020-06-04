@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "BingDeflector",
+    "version": "1.0",
+  
+    "description": "Redirect search queries (e.g. from the Cortana) from Bing to Google.",
+
+    "icons": {
+        "48": "icons/deflect-48.png",
+        "96": "icons/deflect-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.bing.com/search?q=*"],
+        "js": ["bingdeflector.js"],
+        "run_at": "document_start"
+      }
+    ]
+  
+  }
