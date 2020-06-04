@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "BingDeflector",
-    "version": "1.0",
+    "version": "1.0.1",
   
     "description": "Redirect Bing search queries (e.g. from Cortana or the Visual Studio Debugger) to Google.",
 
