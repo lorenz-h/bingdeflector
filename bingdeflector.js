@@ -1,5 +1,5 @@
 let url = window.location.href;
-let userQuery = url.split('search?q=').pop().split('&form=')[0];
-window.location.replace("https://www.google.com/search?q=" + userQuery);
+let query = url.split("?")[1].split("q=").pop().split("&")[0];
+window.location.replace("https://www.google.com/search?q=" + searchTerm);
 
 
